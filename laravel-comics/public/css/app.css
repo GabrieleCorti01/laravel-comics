@@ -38,3 +38,40 @@ header ul a {
 header ul a:hover {
   color: deepskyblue;
 }
+
+.serie-wrapper {
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+}
+.serie-wrapper .container-left {
+  width: 40%;
+  padding-right: 50px;
+}
+.serie-wrapper .container-left .contenitore-price {
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+  padding: 10px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+#immagine-thumb {
+  height: 250px;
+  margin-left: 450px;
+}
+
+.spec-wrapper {
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+}
+.spec-wrapper .left-spec {
+  width: 30%;
+  margin-right: 50px;
+}
+.spec-wrapper .container-talent {
+  display: flex;
+  border-top: 1px solid black;
+}

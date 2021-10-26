@@ -8,12 +8,14 @@
             
 
             @foreach($series_list as $serie)
-        <a href="">
+        
             <div class="card">
+                <a href="{{ route('serie', ['id' => $loop ->index]) }}">
                 <img src="{{ $serie['thumb'] }}" alt="">
                 <p>{{ $serie['title'] }}</p>
+                </a>
             </div>
-        </a>
+        
 
             @endforeach
 

@@ -30,9 +30,13 @@ Route::get('/movies', function () {
     return view('movies');
 })->name('movies');
 
-Route::get('/serie', function () {
-    return view('serie');
+Route::get('/serie/{id}', function ($id) {
+    $series = config('series_list');
+    $serie = $series[$id];
+    return view('serie', ['serie' => $serie]);
 })->name('serie');
+
+
 
 
 
