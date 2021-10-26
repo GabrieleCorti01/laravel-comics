@@ -1,8 +1,7 @@
     
 <header>
 
-
-    <img src="{{ asset('images/dc-logo.png') }}" alt="Logo dc">
+    <a href="{{ route('home') }}"><img src="{{ asset('images/dc-logo.png') }}" alt="Logo dc"></a>
 
     <nav>
         <ul>
@@ -36,7 +35,13 @@
             <li>
                 SHOP
             </li>
+            <li>
+                <input type="text">
+            </li>
         </ul>
+
+
+        
     </nav>
 
 </header>

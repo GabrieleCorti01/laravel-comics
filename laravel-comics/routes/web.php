@@ -14,7 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $series_list = config('series_list');
+    return view('home', ['series_list' => $series_list]);
 })->name('home');
 
 Route::get('/characters', function () {
@@ -28,4 +29,12 @@ Route::get('/comics', function () {
 Route::get('/movies', function () {
     return view('movies');
 })->name('movies');
+
+Route::get('/serie', function () {
+    return view('serie');
+})->name('serie');
+
+
+
+
 
