@@ -1,13 +1,25 @@
 header{
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 10px;
+    img{
+        height: 80px;
+    }
     ul{
         display: flex;
+        align-items: center;
         list-style: none;
         padding-left: 100px;
         li{
-            margin: 10px;
+            margin: 13px;
+            font-size: 1.1em;
+            input{
+                margin-left: 80px;
+                -webkit-appearance: none;
+                border: none;
+                border-bottom: 2px solid deepskyblue;
+                width: 130px;
+            }
         }
         a{
             text-decoration: none;
@@ -15,5 +27,10 @@ header{
         } a:hover{
             color: deepskyblue;
         }
+    }
+
+    .jumbotron{
+        height: 200px;
+        
     }
 }

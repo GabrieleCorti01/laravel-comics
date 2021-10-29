@@ -1,10 +1,14 @@
     
+<!-- inizio sezione header      -->
 <header>
-
-    <a href="{{ route('home') }}"><img src="{{ asset('images/dc-logo.png') }}" alt="Logo dc"></a>
-
+    
+    <!-- inizio sezione navbar attiva -->
     <nav>
         <ul>
+            <li>
+                <!-- immagine logo attiva con url -->
+                <a href="{{ route('home') }}"><img src="{{ asset('images/dc-logo.png') }}" alt="Logo dc"></a>
+            </li>
             <li>
                 <a href="{{ route('characters') }}">CHARACTERS</a>
             </li>
@@ -15,30 +19,35 @@
                 <a href="{{ route('movies') }}">MOVIES</a>
             </li>
             <li>
-                TV
+                <a href="#">TV</a>
             </li>
             <li>
-                GAMES
+                <a href="#">GAMES</a>
             </li>
             <li>
-                COLLECTIONS
+                <a href="#">COLLECTIBLES</a>
             </li>
             <li>
-                VIDEOS
+                <a href="#">VIDEOS</a>
             </li>
             <li>
-                FANS
+                <a href="#">FANS</a>
             </li>
             <li>
-                NEWS
+                <a href="#">NEWS</a>
             </li>
             <li>
-                SHOP
+                <a href="#">SHOP</a>
             </li>
             <li>
-                <input type="text">
+                <input type="text" placeholder="Search">
             </li>
         </ul>
+
+        <!-- Inizio sezione jumbotron -->
+        <div class="jumbotron">
+            
+        </div>
 
 
         
