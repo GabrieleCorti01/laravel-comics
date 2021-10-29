@@ -1,15 +1,45 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap);#series .main-container {
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap);#series {
+  background-color: #1b1c1b;
+}
+#series .current-series {
+  position: absolute;
+  top: 515px;
+  left: 100px;
+}
+#series .current-series :hover {
+  box-shadow: 7px 7px;
+}
+#series .current-series h2 {
+  background-color: #377ae3;
+  padding: 15px;
+  color: white;
+}
+#series .main-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top: 50px;
 }
 #series .main-container .card {
   padding: 20px;
-  text-align: center;
   flex-basis: calc(16.6666666667% - 40px);
+  background-color: #121212;
+  margin: 10px;
+  text-align: center;
+  border-radius: 15px;
 }
-#series .main-container .card .background-thumb {
-  height: 200px;
+#series .main-container .card a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+#series .main-container .card a img {
+  border-radius: 15px;
+}
+#series .main-container .card a p {
+  margin-top: 15px;
+  font-size: 1.1em;
 }
 
 * {
