@@ -1,5 +1,15 @@
-    
-<!-- inizio sezione header      -->
+   
+<!-- inizio sezione upperheader -->
+<section>
+
+    <div class="upper-header">
+        <a href="#">DC POWER VISA®</a>
+        <a href="#">ADDITIONAL DC SITES</a>
+    </div>
+
+</section>
+
+<!-- inizio sezione header -->
 <header>
     
     <!-- inizio sezione navbar attiva -->
@@ -45,9 +55,13 @@
         </ul> 
     </nav>
 
-    <!-- Inizio sezione jumbotron -->
+</header>
+
+<!-- inizio sezione jumbotron -->
+<section>
+
     <div class="jumbotron">
             
     </div>
 
-</header>
+</section>

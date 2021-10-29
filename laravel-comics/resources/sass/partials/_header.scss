@@ -1,7 +1,25 @@
+
+ .upper-header{
+    height: 20px;
+    width: 100%;
+    padding: 5px;
+    background-color: #377ae3;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: 300;
+        font-size: 0.8em;
+        padding-right: 200px;
+    }
+}
+
 header{
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 5px;
     img{
         height: 80px;
     }
@@ -14,23 +32,27 @@ header{
             margin: 13px;
             font-size: 1.1em;
             input{
-                margin-left: 80px;
+                margin-left: 50px;
                 -webkit-appearance: none;
                 border: none;
-                border-bottom: 2px solid deepskyblue;
+                border-bottom: 2px solid #377ae3;
                 width: 130px;
+                color: black;
             }
         }
         a{
             text-decoration: none;
             color: black;
         } a:hover{
-            color: deepskyblue;
+            color: #377ae3;
         }
     }
 
-    .jumbotron{
-        height: 200px;
-        background-image: url("/images/jumbotron.jpg");
-    }
+   
+}
+.jumbotron{
+    height: 400px;
+    width: 100%;
+    background-image: url("/images/jumbotron.jpg");
+    background-size: cover;
 }
