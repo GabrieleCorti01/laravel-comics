@@ -42,15 +42,12 @@
             <li>
                 <input type="text" placeholder="Search">
             </li>
-        </ul>
-
-        <!-- Inizio sezione jumbotron -->
-        <div class="jumbotron">
-            
-        </div>
-
-
-        
+        </ul> 
     </nav>
+
+    <!-- Inizio sezione jumbotron -->
+    <div class="jumbotron">
+            
+    </div>
 
 </header>

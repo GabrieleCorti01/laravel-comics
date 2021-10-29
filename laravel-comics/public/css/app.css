@@ -56,6 +56,7 @@ header ul a:hover {
 }
 header .jumbotron {
   height: 200px;
+  background-image: url("/images/jumbotron.jpg");
 }
 
 .serie-wrapper {
