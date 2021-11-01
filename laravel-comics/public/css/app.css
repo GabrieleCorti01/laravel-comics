@@ -110,6 +110,17 @@ header ul a:hover {
   background-size: cover;
 }
 
+.linea-blu {
+  height: 80px;
+  background-color: #377ae3;
+}
+.linea-blu #immagine-thumb {
+  height: 200px;
+  position: absolute;
+  top: 400px;
+  left: 415px;
+}
+
 .serie-wrapper {
   display: flex;
   padding: 50px;
@@ -119,7 +130,16 @@ header ul a:hover {
   width: 40%;
   padding-right: 50px;
 }
-.serie-wrapper .container-left .contenitore-price {
+.serie-wrapper .container-left h2 {
+  text-transform: uppercase;
+  color: #194995;
+  padding-bottom: 10px;
+}
+.serie-wrapper .container-left .dispo-wrapper {
+  display: flex;
+}
+.serie-wrapper .container-left .dispo-wrapper .contenitore-price-dispo {
+  width: 70%;
   display: flex;
   justify-content: space-between;
   background-color: green;
@@ -127,22 +147,35 @@ header ul a:hover {
   color: white;
   margin-bottom: 15px;
 }
-
-#immagine-thumb {
-  height: 250px;
-  margin-left: 450px;
+.serie-wrapper .container-left .dispo-wrapper .contenitore-check-dispo {
+  background-color: green;
+  padding: 10px;
+  color: white;
+  margin-bottom: 15px;
+  border-left: 1px solid #161616;
 }
 
 .spec-wrapper {
   display: flex;
   padding: 50px;
   justify-content: center;
+  background-color: #ececec;
 }
 .spec-wrapper .left-spec {
-  width: 30%;
+  width: 20%;
+  margin-right: 50px;
+}
+.spec-wrapper .right-spec {
+  width: 20%;
   margin-right: 50px;
 }
 .spec-wrapper .container-talent {
   display: flex;
+  justify-content: space-between;
   border-top: 1px solid black;
+  padding: 10px;
+}
+
+h4 {
+  padding-bottom: 10px;
 }

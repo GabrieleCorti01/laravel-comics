@@ -36,6 +36,11 @@ Route::get('/serie/{id}', function ($id) {
     return view('serie', ['serie' => $serie]);
 })->name('serie');
 
+Route::get('/footer', function () {
+    $series_list = config('footer_list');
+    return view('footer', ['footer_list' => $footer_list]);
+})->name('footer');
+
 
 
 

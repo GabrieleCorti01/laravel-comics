@@ -16,7 +16,7 @@
     <nav>
         <ul>
             <li>
-                <!-- immagine logo attiva con url -->
+    <!-- immagine logo attiva con url -->
                 <a href="{{ route('home') }}"><img src="{{ asset('images/dc-logo.png') }}" alt="Logo dc"></a>
             </li>
             <li>
